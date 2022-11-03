@@ -1,0 +1,38 @@
+{
+  "name": "be_exercises",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "clone-deep": "^4.0.1",
+    "mongoose": "^6.7.1",
+    "p-queue": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^15.0.1",
+    "@types/sinon": "^9.0.9",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^4.2.2",
+    "wait-for-expect": "^3.0.2"
+  },
+  "scripts": {
+    "test": "set TS_NODE_PROJECT=tsconfig.json&&set TS_NODE_FILES=true&&mocha \"./**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-future-holdings/be_exercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/new-future-holdings/be_exercises/issues"
+  },
+  "homepage": "https://github.com/new-future-holdings/be_exercises#readme"
+}
