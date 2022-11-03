@@ -135,33 +135,8 @@ export default class AccountProjection extends Projection {
       }
       return
     }
-    return
-    // if(event.type === 'DepositCreated')
-    // { 
-    //   const accountDeposited = await accountModel.findOne({id: event.body.account});
-    //   if(!accountDeposited) throw new AccountNotFoundError(event.body.account);
-      
-    //   if(!account) {
-    //     deposits.push({id: event.aggregateId, total: accountDeposited.totalApprovedDepositAmount as number}); //initialize 1
-    //     return
-    //   }
-      
-    //   const index = deposits.findIndex(deposit => deposit.id === event.aggregateId); //find index of deposit u want to update
-    //   deposits[index].total = deposits[index].total + event.body.amount; // update the total of the deposit sa nkita nga index
-    //   return;
-    // }
+    return;
 
-    // if(event.type === 'DepositApproved'){
-    //   const index = deposits.findIndex(deposit => deposit.id === event.aggregateId)
-    //   const totalAccountDeposit = deposits[index];
-    //   console.log(totalAccountDeposit);
-    //   await accountModel.findOneAndUpdate({id: totalAccountDeposit.id, totalApprovedDepositAmount: totalAccountDeposit.total});
-    //   return
-      
-    // }
-
- 
-    
     // TODO: Implement this method, to maintain a state in your database.
     // You can choose any database of your own, but suggested is MongoDB.
   }

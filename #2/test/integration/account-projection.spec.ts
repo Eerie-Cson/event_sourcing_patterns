@@ -18,7 +18,7 @@ async function findById(id: string): Promise<{
   return null;
 }
 
-describe.skip('AccountProjection', function () {
+describe('AccountProjection', function () {
   describe('#start', function () {
     before(async function () {
       this.eventStore = new EventStore(AccountEvents);
