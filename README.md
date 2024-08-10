@@ -1,6 +1,3 @@
-# OneWallet BE Exercises
-Before you proceed with the exercise, this assumes that you have already read/knowledgeable when it comes to the event sourcing.
-
 ## Events
 Events that will be used for all the tests can be found on the `./event.ts`.
 
